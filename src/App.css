@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  padding: 3vh 7vw;
+}
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3vh;
+}
+
+/* container */
+.container{
+  text-align: left;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-column-gap: 20px;
+  padding-bottom: 3vh;
+}
+.container .news img{
+  width: 100%;
+}
+
+/* magazin */
+.magazin_wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.magazin_wrapper .magazin img{
+  width: 50%;
+}
